@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./app/bin/www",
-    "debug": "nodemon --debug=56745 ./app/bin/www"
+    "debug": "nodemon --debug=56745 --debug-brk=56745 ./app/bin/www",
+    "deps": "npm install"
   },
   "dependencies": {
     "forever": "^0.15.2",

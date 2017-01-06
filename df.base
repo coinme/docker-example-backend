@@ -1,5 +1,5 @@
-FROM node:4.4.5
-MAINTAINER Camille Reynders
+FROM node:7.4.0
+MAINTAINER Marcio Nicolau <marcionicolau@me.com>
 
 # Copied from: http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/
 # use changes to package.json to force Docker not to use the cache
